@@ -4,7 +4,7 @@ const Header=()=>{
     return(
         <header className={classes.header}>
         <div className={classes.h3}>
-            <h3 >NFT STORE</h3>
+            <h2 >NFT STORE</h2>
         </div>
         <div className={classes.nav}>
             <ul>
