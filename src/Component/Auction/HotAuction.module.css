@@ -40,3 +40,16 @@
   
     
 }
+
+.right:hover h4{
+    background:linear-gradient(
+        -225deg,
+        #00ff00 0%,
+        #7b00ff 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    transition: 500ms linear ease-in-out;
+    background-clip:text;
+    color: transparent;
+}
