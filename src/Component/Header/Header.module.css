@@ -1,0 +1,114 @@
+.header{
+    height: 10vh;
+    width: 90%;
+    /* background-color: red; */
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.h3{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    background-image:linear-gradient(
+        -225deg,
+        #00ff00 0%,
+        #7b00ff 29%,
+        #ff1361 67%,
+        #fff800 100%
+    ) ;
+    justify-content: center;
+    align-items: center;
+    background-clip:text;
+    color: transparent;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.nav{
+    width: 50%;
+    height: 100%;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.nav ul li:hover{
+    background-image: linear-gradient(
+        -225deg,
+        #00ff00 0%,
+        #7b00ff 29%,
+        #ff1361 67%,
+        #fff800 100%
+
+    );
+    background-clip: text;
+    color: transparent;
+
+}
+
+.createDiv{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.createDiv .create{
+    width: 40%;
+    height: 60%;
+    background-color: transparent;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:solid white 1px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.sign{
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    
+}
+
+.sign:hover{
+    background-image: linear-gradient(
+        -225deg,
+        #00ff00 0%,
+        #7b00ff 29%,
+        #ff1361 67%,
+        #fff800 100%
+
+    );
+    background-clip: text;
+    color: transparent;
+    font-size: 1rem;
+    
+    
+
+}
+
+
