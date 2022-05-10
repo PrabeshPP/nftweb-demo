@@ -4,7 +4,7 @@ import {AiOutlineHeart} from "react-icons/ai";
 
 const Body=(props)=>{
     return(
-        <body className={classes.body}>
+        <div className={classes.body}>
             <div className={classes.boxLeft}>
                 <div className={classes.heading}>
                     <h1>Discover,Collect,and Charity
@@ -41,7 +41,7 @@ const Body=(props)=>{
                 </div>
 
             </div>
-        </body>
+        </div>
 
     )
 
