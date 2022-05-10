@@ -6,6 +6,24 @@ const Body=(props)=>{
     return(
         <body className={classes.body}>
             <div className={classes.boxLeft}>
+                <div className={classes.heading}>
+                    <h1>Discover,Collect,and Charity
+                     in extraordinary NFT Marketplace</h1>
+                </div>
+                <div className={classes.para}>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                     adipiscing elit. Donec facilisis facilisis
+                      nisi. Quisque vel malesuada nibh.
+                    </p>
+                    
+                </div>
+                <br></br>
+                <div className={classes.button}>
+                    <button className={classes.button1}>Explore</button>
+                    <button className={classes.button2}>Create</button>
+                </div>
+
 
             </div>
             <div className={classes.boxRight}>

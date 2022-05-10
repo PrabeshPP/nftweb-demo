@@ -4,12 +4,70 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 1%;
 }
 
 .boxLeft{
-    background-color: blueviolet;
+   
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxLeft .heading{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 80%;
+    color: white;
+
+    
+}
+
+.boxLeft .para{
+    margin-top: 2%;
+    height: 10%;
+    margin-left: 5%;
+    color: white;
     width: 60%;
-    height: 90%;
+    font-weight:300;
+    
+
+}
+
+.boxLeft .button{
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 10%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.button .button1{
+    border-radius: 16px;
+    border: none;
+    height: 80%;
+    width: 40%;
+    background: linear-gradient(90deg,#9B51E0,#3081ED);
+    cursor: pointer;
+    color: white;
+    position:absolute;
+    
+}
+
+.button .button2{
+    border-radius: 16px;
+    border: solid 1px white;
+    height: 80%;
+    width: 40%;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    right: 2%;
+
 }
 
 
@@ -17,7 +75,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(25px);
     width: 30%;
-    height: 90%;
+    height: 80%;
     border-radius: 10%;
     display: flex;
     flex-direction: column;
@@ -27,8 +85,8 @@
 
 .boxRight img{
     background-color: red;
-    height: 80%;
-    width: 90%;
+    height: 60%;
+    width: 80%;
     object-fit:fill;
     border-radius:10% ;
 }
