@@ -1,12 +1,14 @@
 import classes from "./Body.module.css";
 
-const Body=()=>{
+
+const Body=(props)=>{
     return(
         <body className={classes.body}>
-            <div>
+            <div className={classes.boxLeft}>
 
             </div>
-            <div>
+            <div className={classes.boxRight}>
+                <img src={props.imgSrc} alt="hello" />
 
             </div>
         </body>
