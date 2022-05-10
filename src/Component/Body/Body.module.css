@@ -27,9 +27,35 @@
 
 .boxRight img{
     background-color: red;
-    height: 50%;
+    height: 80%;
     width: 90%;
     object-fit:fill;
     border-radius:10% ;
+}
+
+.boxRight .foot{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot .left{
+    color: white;
+}
+
+.foot .right{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-end;
+    color: white;
+}
+
+.right .heart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
