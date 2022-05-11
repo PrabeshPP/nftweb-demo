@@ -1,0 +1,71 @@
+.container{
+    height: 60vh;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.head{
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.iconBox{
+    height: 60%;
+    width:80% ;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.mainContainer{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconContainer{
+    height: 60%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.183);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconContainer:hover{
+    background:linear-gradient(
+        -225deg,
+        #00ff00 0%,
+        #7b00ff 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    transition: 500ms linear ease-in-out;
+}
+
+.icon{
+    color: rgb(165, 149, 149);
+   font-size: 4.0rem;
+
+}
+
+.mainContainer p{
+    color: white;
+}

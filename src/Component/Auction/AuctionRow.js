@@ -1,7 +1,7 @@
 import classes from "./AuctionRow.module.css";
 
 const Row=(props)=>{
-    const load=props.data.map((data)=><div className={classes.box}>
+    const load=props.data.map((data)=><div className={classes.box} key={data.name}>
     <img  className={classes.img} src={data.imgSrc}
     />
     <div className={classes.name}>
@@ -9,7 +9,6 @@ const Row=(props)=>{
         <p>{data.price}</p>
     </div>
     <div  className={classes.bid}>
-        <p>Ends in</p>
         <button>bid</button>
     </div>
 
