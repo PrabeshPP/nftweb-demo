@@ -13,6 +13,19 @@
     height: 80%;
     display: flex;
     flex-direction: column;
+    animation: left;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+}
+
+@keyframes left {
+    from{
+        transform: translateY(40%);
+    }    
+
+    to{
+        transform: translateY(0px);
+    }
 }
 
 .boxLeft .heading{
@@ -66,6 +79,9 @@
         #fff800 100%
     );
     transition: 500ms linear ease-in-out;
+    box-shadow:inset 0px 0px 5px #c1c1c1 ;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
 }
 
 .button .button2{
@@ -92,10 +108,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    animation: right;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+}
+
+@keyframes right {
+    from{
+        transform: translateY(40%);
+    }
+    to{
+        transform: translateY(0%);
+    }
 }
 
 .boxRight img{
-    background-color: red;
     height: 70%;
     width: 90%;
     object-fit:fill;

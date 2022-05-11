@@ -1,6 +1,8 @@
 .container{
-    height: 50vh;
+    height: 70vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .container .nav{
@@ -35,8 +37,7 @@
 .nav .arrow{
     
     color: white;
-    width: 20%;
-    height: 90%;
+   font-size: 1.5rem;
   
     
 }
@@ -52,4 +53,10 @@
     transition: 500ms linear ease-in-out;
     background-clip:text;
     color: transparent;
+    
+}
+
+
+.right:hover .arrow{
+    color:#00ff00;
 }
