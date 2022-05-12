@@ -8,9 +8,9 @@ const NftBox = (props) => {
         <p>{data.name}</p>
         <p>{data.price}</p>
       </div>
-      {/* <div className={classes.bid}>
+      <div className={classes.bid}>
             <button>bid</button>
-          </div> */}
+          </div>
     </div>
   ));
   return <div className={classes.container}>{load}</div>;
