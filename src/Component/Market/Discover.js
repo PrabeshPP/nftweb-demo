@@ -1,5 +1,6 @@
 import { useCallback, useEffect,useState } from "react";
 import classes from "./Discover.module.css";
+import NftBox from "./NftBox";
 
 
 const Discover=()=>{
@@ -42,11 +43,13 @@ const Discover=()=>{
 
  
 
+ 
+
    return (
        <div className={classes.container}>
        <h1>Discover</h1>
        {
-           !isLoading && nftData.map((data)=><p>{data.price}</p>)
+          !isLoading && <NftBox data={nftData}/>
        }
 
        </div>
