@@ -1,4 +1,5 @@
 import { useCallback, useEffect,useState } from "react";
+import classes from "./Discover.module.css";
 
 
 const Discover=()=>{
@@ -18,7 +19,8 @@ const Discover=()=>{
          loadItems.push({
              id:data[item].id,
              name:data[item].name,
-             image:data[item].image
+             image:data[item].image,
+             price:data[item].price
          
          });
 
@@ -38,7 +40,17 @@ const Discover=()=>{
 
    },[fetchData])
 
-   console.log(nftData)
+ 
+
+   return (
+       <div className={classes.container}>
+       <h1>Discover</h1>
+       {
+           !isLoading && nftData.map((data)=><p>{data.price}</p>)
+       }
+
+       </div>
+   )
  
   
 }
