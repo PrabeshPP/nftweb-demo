@@ -1,4 +1,5 @@
 import classes from "./NftBox.module.css";
+import {FaCartPlus} from 'react-icons/fa';
 
 const NftBox = (props) => {
   const load = props.data.map((data) => (
@@ -10,6 +11,7 @@ const NftBox = (props) => {
       </div>
       <div className={classes.bid}>
             <button>Buy</button>
+            <button>{<FaCartPlus/>}</button>
           </div>
     </div>
   ));
