@@ -27,7 +27,7 @@ const Discover=()=>{
 
      }
      const newLoadItems=[...loadItems,...loadItems];
-     setNftData(newLoadItems);
+     setNftData(newLoadItems.slice(0,8));
 
     }catch(err){
         setIsError(err.message);

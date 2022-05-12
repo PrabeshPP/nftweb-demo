@@ -1,19 +1,26 @@
 .container{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
     user-select: none;
+  
+  
   
    
 }
 
+.container::after{
+    content: "";
+    flex: auto;
+}
+
 .box{
     height: 50vh;
-    width: 20%;
+    width: 70%;
     display: flex;
     flex-direction: column;
-    margin: 2%;
+    margin: 1em ;
     padding: 0%;
   
    
@@ -34,4 +41,37 @@
     justify-content: space-between;
     align-items: center;
    border-bottom: solid 2px white;
+}
+
+.bid{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.bid button{
+    cursor: pointer;
+    height: 50%;
+    width: 40%;
+    background: linear-gradient(-225deg,#9B51E0,#3081ED);
+    border: none;
+    border-radius: 1.3rem;
+    color: white;
+
+}
+
+.bid button:hover{
+    background:linear-gradient(
+        -225deg,
+        #00ff00 0%,
+        #7b00ff 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    transition: 500ms linear ease-in-out;
+    box-shadow:inset 0px 0px 5px #c1c1c1 ;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
 }
