@@ -5,6 +5,7 @@ import imgSrc from './Assets/moneky_nft.jpg';
 import HotAunction from './Component/Auction/HotAuction';
 import ComponentStarted from './Component/GettingStarted/Component';
 import Discover from './Component/Market/Discover';
+import Foot from './Component/Foot/Foot';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <HotAunction/>
      <ComponentStarted/>
      <Discover/>
+     <Foot/>
     </div>
   );
 }
