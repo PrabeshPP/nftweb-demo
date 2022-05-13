@@ -52,7 +52,9 @@ const Discover=()=>{
        {
           !isLoading && <NftBox data={nftData}/>
        }
-
+       <div className={classes.box}>
+       <button>LOAD MORE</button>
+       </div>
        </div>
    )
  
