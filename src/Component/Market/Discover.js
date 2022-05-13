@@ -49,9 +49,12 @@ const Discover=()=>{
    return (
        <div className={classes.container}>
        <h1>Discover</h1>
+       <div className={classes.content}>
        {
-          !isLoading && <NftBox data={nftData}/>
+           
+          isError?<div className={classes.loader}></div>:isLoading?<div className={classes.loader}></div>:<NftBox data={nftData}/>
        }
+       </div>
        <div className={classes.box}>
        <button>LOAD MORE</button>
        </div>
