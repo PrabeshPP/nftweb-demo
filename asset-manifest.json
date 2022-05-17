@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/nftweb-demo/static/css/main.66f8c203.css",
+    "main.js": "/nftweb-demo/static/js/main.dbdb059d.js",
+    "static/js/787.f8994206.chunk.js": "/nftweb-demo/static/js/787.f8994206.chunk.js",
+    "static/media/moneky_nft.jpg": "/nftweb-demo/static/media/moneky_nft.ef139188d978f287ed33.jpg",
+    "static/media/nft1.png": "/nftweb-demo/static/media/nft1.a8e0731da11e480bf875.png",
+    "static/media/nft3.png": "/nftweb-demo/static/media/nft3.e8ed53d91275873e26bf.png",
+    "static/media/nft2.png": "/nftweb-demo/static/media/nft2.099145ee9e149519f5cd.png",
+    "index.html": "/nftweb-demo/index.html",
+    "main.66f8c203.css.map": "/nftweb-demo/static/css/main.66f8c203.css.map",
+    "main.dbdb059d.js.map": "/nftweb-demo/static/js/main.dbdb059d.js.map",
+    "787.f8994206.chunk.js.map": "/nftweb-demo/static/js/787.f8994206.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f8c203.css",
+    "static/js/main.dbdb059d.js"
+  ]
+}
